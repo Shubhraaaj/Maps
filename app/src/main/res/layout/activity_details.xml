@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:background="#FFE082"
+    android:layout_height="match_parent"
+    tools:context="com.example.shubhraj.maps.DetailsActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LOCATION DETAILS"
+            android:textSize="30dp"
+            android:textColor="#689F38"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:textColor="#E91E63"
+            android:layout_height="wrap_content"
+            android:text="Address:"
+            android:textSize="30dp"
+            android:padding="5dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/address"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text="No Info"
+            android:padding="5dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:textColor="#E91E63"
+        android:layout_height="wrap_content"
+        android:text="City:"
+        android:textSize="30dp"
+        android:padding="5dp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="0dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="No Info"
+        android:layout_weight="1"
+        android:id="@+id/city"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:padding="5dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="State:"
+        android:textColor="#E91E63"
+        android:textSize="30dp"
+        android:padding="5dp"
+        android:textStyle="bold" />
+        <TextView
+            android:layout_width="0dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_weight="1"
+            android:id="@+id/state"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text="No Info"
+            android:padding="5dp"/>
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Country:"
+        android:padding="5dp"
+        android:textColor="#E91E63"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+        <TextView
+            android:layout_width="0dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_weight="1"
+            android:id="@+id/country"
+            android:layout_height="wrap_content"
+            android:text="No Info"
+            android:textSize="30dp"
+            android:padding="5dp"/>
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Postal Code:"
+        android:textColor="#E91E63"
+        android:padding="5dp"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textColor="@color/colorPrimaryDark"
+            android:id="@+id/postal"
+            android:layout_height="wrap_content"
+            android:text="No Info"
+            android:textSize="30dp"
+            android:padding="5dp"/>
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Known Name:"
+        android:padding="5dp"
+        android:textColor="#E91E63"
+        android:textSize="30dp"
+        android:textStyle="bold"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="No Info"
+            android:textColor="@color/colorPrimaryDark"
+            android:id="@+id/name"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:padding="5dp"/>
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Latitude:"
+            android:padding="5dp"
+            android:textColor="#E91E63"
+            android:textSize="30dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="0dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_weight="1"
+            android:text="No Info"
+            android:id="@+id/latit"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:padding="5dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Longitude:"
+            android:padding="5dp"
+            android:textColor="#E91E63"
+            android:textSize="30dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="No Info"
+            android:textColor="@color/colorPrimaryDark"
+            android:id="@+id/longig"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:padding="5dp"/>
+    </LinearLayout>
+
+</LinearLayout>

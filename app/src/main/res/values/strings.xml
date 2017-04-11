@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Maps</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="search">SEARCH</string>
+    <string name="type">TYPE</string>
+    <string name="title_activity_first">FirstActivity</string>
+    <string name="change_values">CHANGE</string>
+    <string name="name">Name</string>
+    <string name="nameHint">Enter Name here</string>
+    <string name="first_name_hint">First Name</string>
+    <string name="last_name_hint">Last Name</string>
+    <string name="password_hint">Enter Email</string>
+    <string name="email">Email</string>
+    <string name="description">Description</string>
+    <string name="description_hint">Enter Description here</string>
+    <string name="price">Price</string>
+    <string name="price_hint">Enter Price here</string>
+    <string name="location">Location</string>
+    <string name="location_hint">Enter Place here</string>
+    <string name="latlng">Coordinates</string>
+    <string name="lat_hint">Latitude</string>
+    <string name="long_hint">Longitude</string>
+    <string name="category">Category</string>
+    <string name="availablity">Availability</string>
+    <string name="password">Password</string>
+    <string name="email_hint">Enter Email</string>
+    <string name="pass_hint">Enter Password</string>
+</resources>
